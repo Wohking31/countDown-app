@@ -1,0 +1,43 @@
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.countdown-heading {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.time-units-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.time-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.time-label {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.days-remaining {
+  margin-top: 15px;
+}
